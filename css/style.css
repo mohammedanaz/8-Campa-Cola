@@ -1,0 +1,45 @@
+.nav-logo{
+    width: 90px;
+
+}
+
+.navbar-nav li{
+    margin-left: 75px;
+}
+
+.nav-item:hover .dropdown-menu{
+    display: block;
+}
+
+.nav-item:hover{
+    border-bottom: solid;
+    border-width: 4px;
+    border-color: rgb(5, 5, 200);
+}
+
+.dropdown-menu{
+    
+}
+
+.dropdown-menu li{
+    text-align: left;
+   
+}
+
+.dropdown-item{
+    font-weight: 500;
+    border-bottom: solid;
+    border-width: 1px;
+}
+
+.heading-img{
+    padding: 50px 0;
+}
+
+.card-body{
+    background-color: rgb(119, 0, 216);
+}
+
+.card{
+    cursor: pointer;
+}
