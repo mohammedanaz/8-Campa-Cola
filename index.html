@@ -5,25 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
 
     <title>Campa Cola</title>
 </head>
 <body>
 
     <!-- Nav bar -->
-    <nav class="navbar navbar-expand-lg bg-white">
+    <nav class="navbar navbar-expand-lg bg-white fixed-top">
         <div class="container-sm">
-          <a class="navbar-brand" href="#"><img src="img/nav logo.png" class="nav-logo"></a>
+          <a class="navbar-brand" href="http://127.0.0.1:5500/8-Campa%20Cola/index.html#"><img src="img/nav logo.png" class="nav-logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav mx-auto fw-bold fs-5">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/8-Campa%20Cola/index.html#">HOME</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"  aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="http://127.0.0.1:5500/8-Campa%20Cola/index.html#" role="button" data-bs-toggle="dropdown"  aria-expanded="false">
                   PRODUCTS
                 </a>
                 <ul class="dropdown-menu">
@@ -34,7 +36,7 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">ABOUT</a>
+                <a class="nav-link" href="http://127.0.0.1:5500/8-Campa%20Cola/about_us.html">ABOUT</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">CONTACT US</a>
@@ -47,7 +49,7 @@
 
       <!-- Carousel -->
 
-      <div id="carouselExample" class="carousel slide">
+      <div id="carouselExample" class="carousel slide carousel-1">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <a href="#"><img src="img/carousel-img-3.jpg" class="d-block w-100" alt="..."></a>
@@ -170,6 +172,246 @@
           <img src="img/heading-campa-img-2.jpg" class="img-fluid">
         </div>
       </div>
+
+      <!-- image grid -->
+
+
+      <div class="container-fluid text-center">
+        <div class="row pb-5">
+          <div class="col-12 col-sm-4 col-lg-2">
+            <img src="img/img-grid-img-1.jpg" alt="" class="img-fluid grid-img-1 h-100">
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4">
+            <img src="img/img-grid-img-2.jpg" alt="" class="img-fluid grid-img-2 h-100">
+          </div>
+          <div class="col-12 col-sm-4 col-lg-2">
+            <img src="img/img-grid-img-3.jpg" alt="" class="img-fluid grid-img-3-1 h-50 pb-2">
+            <img src="img/img-grid-img-5.jpg" alt="" class="img-fluid grid-img-3-2 h-50">
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4">
+            <img src="img/img-grid-img-4.jpg" alt="" class="img-fluid grid-img-4-1 h-50 pb-2">
+            <img src="img/img-grid-img-6.jpg" alt="" class="img-fluid grid-img-4-2 h-50" style="max-width: 48%;">
+            <img src="img/img-grid-img-7.jpg" alt="" class="img-fluid grid-img-4-3 h-50 w-49" style="max-width: 48%;">
+          </div>
+        </div>
+      </div>
+
+      <!-- Explore sec -->
+
+      <div class="container-fluid explore-sec  mb-5">
+       <div class="d-flex explore-sec-sub-div py-3">
+        <div class="explore-sec-sub-div-1">
+
+        </div>
+
+        <div class="explore-sec-sub-div-2">
+        <div>
+            <h1 class="text-white  text-uppercase">Let's Raise a Glass<br> Together!</h1>
+        </div>
+
+        <div class="explore-sec-sub-div-2-btn">
+            <button type="button"  class="btn  btn-warning fw-bold" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="width: 100%; font-size: 1vw;" >See Trending Product</button>
+        </div>
+      </div>
+      </div>  
+      </div>
+      
+      <!-- Modal -->
+
+
+      <!-- Button trigger modal
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop"></button> -->
+
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Products Of The Month</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+        <div class="d-flex">
+
+          <div class="card pr-2 rounded-4 rounded-bottom-0" >
+            <img src="img/card-img-8.jpg" class="card-img-top rounded-4 rounded-bottom-0" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-white">VIBRANT</h5>
+              <h5 class="card-title text-warning">CAMPA LEMON</h5>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label text-white" for="flexCheckDefault">
+                  Pick
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="card pl-2 rounded-4 rounded-bottom-0" >
+            <img src="img/card-img-2.jpg" class="card-img-top  rounded-4 rounded-bottom-0" alt="...">
+            <div class="card-body">
+                <h5 class="card-title text-white">FIZZY</h5>
+                <h5 class="card-title text-warning">CAMPA ORANGE</h5>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label text-white" for="flexCheckDefault">
+                    Pick
+                  </label>
+                </div>
+              </div>
+          </div>
+
+        </div>
+
+
+        
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <a href="https://www.amazon.in/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fs%3Fk%3Dlogin%2Bamazon%2Baccount%26adgrpid%3D59671903835%26ext_vrnc%3Dhi%26gclid%3DCjwKCAiAs6-sBhBmEiwA1Nl8s1Xphgs0Kpd8dzgjBHhRda5snnt6XR2TEI6GbW3CFDXEF7p5nLAY1hoCBjgQAvD_BwE%26hvadid%3D590652406969%26hvdev%3Dc%26hvlocphy%3D9149022%26hvnetw%3Dg%26hvqmt%3De%26hvrand%3D5679826622360064408%26hvtargid%3Dkwd-837441119212%26hydadcr%3D24542_2265395%26tag%3Dgooginhydr1-21%26ref%3Dnav_custrec_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0" target="_blank">
+          <button type="button" class="btn btn-primary">Order &nbsp;<i class="fa fa-amazon"></i></button>
+        </a>
+      </div>
+     </div>
+    </div>
+  </div>
+
+
+      <!-- Footer -->
+
+      <div class="container-fluid p-0">
+        <!-- Footer -->
+        <footer
+                class="text-lg-start text-white "
+                style="background-color: #38393B"
+                >
+          <!-- Grid container -->
+          <div class="container footer-div p-4 pb-0">
+            <!-- Section: Links -->
+            <section class="">
+              <!--Grid row-->
+              <div class="row mt-5">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                  <img src="img/nav logo.png" alt="" class="footer-img" style="width: 12vw;">
+                </div>
+                <!-- Grid column -->
+      
+                <hr class="w-100 clearfix d-md-none" />
+      
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                  <h6 class="text-uppercase mb-4 font-weight-bold">Campa</h6>
+                  <p>
+                    <a href="#" class="text-secondary text-decoration-none">Home</a>
+                  </p>
+                  <p>
+                    <a href="#" class="text-secondary text-decoration-none">Products</a>
+                  </p>
+                    </div>
+                <!-- Grid column -->
+      
+                <hr class="w-100 clearfix d-md-none" />
+      
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                  <h6 class="text-uppercase mb-4 font-weight-bold">
+                    COLD DRINKS
+                  </h6>
+                  <p>
+                    <a href="#" class="text-secondary text-decoration-none">Campa Cola</a>
+                  </p>
+                  <p>
+                    <a href="#" class="text-secondary text-decoration-none">Orange</a>
+                  </p>
+                  <p>
+                    <a href="#" class="text-secondary text-decoration-none">Green-Lemon</a>
+                  </p>
+                  <p>
+                    <a href="#" class="text-secondary text-decoration-none">Cloudy-Lemon</a>
+                  </p>
+                </div>
+      
+                <!-- Grid column -->
+                <hr class="w-100 clearfix d-md-none" />
+      
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                  <h6 class="text-uppercase mb-4 font-weight-bold">Contact Us</h6>
+                  <p><i class="fa fa-home mr-3"></i> New York, NY 10012, US</p>
+                  <p><i class="fa fa-envelope mr-3"></i> info@campacola.in</p>
+                  <p><i class="fa fa-phone mr-3"></i> + 01 234 567 88</p>
+                  <p><i class="fa fa-print mr-3"></i> + 01 234 567 89</p>
+                </div>
+                <!-- Grid column -->
+              </div>
+              <!--Grid row-->
+            </section>
+            <!-- Section: Links -->
+      
+            <hr class="my-3">
+      
+            <!-- Section: Copyright -->
+            <section class="p-3 pt-0">
+              <div class="row d-flex align-items-center">
+                <!-- Grid column -->
+                <div class="col-md-7 col-lg-8 text-center text-md-start">
+                  <!-- Copyright -->
+                  <div class="text-secondary p-3">
+                    © 2020 Copyright:
+                    <a class="text-secondary text-decoration-none" href="https://mdbootstrap.com/"
+                       >campacola.in</a
+                      >
+                  </div>
+                  <!-- Copyright -->
+                </div>
+                <!-- Grid column -->
+      
+                <!-- Grid column -->
+                <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+                  <!-- Facebook -->
+                  <a
+                     class="btn btn-outline-light btn-floating m-1"
+                     class="text-white"
+                     role="button"
+                     ><i class="fa fa-facebook-f"></i
+                    ></a>
+      
+                  <!-- Twitter -->
+                  <a
+                     class="btn btn-outline-light btn-floating m-1"
+                     class="text-white"
+                     role="button"
+                     ><i class="fa fa-twitter"></i
+                    ></a>
+      
+                  <!-- Google -->
+                  <a
+                     class="btn btn-outline-light btn-floating m-1"
+                     class="text-white"
+                     role="button"
+                     ><i class="fa fa-google"></i
+                    ></a>
+      
+                  <!-- Instagram -->
+                  <a
+                     class="btn btn-outline-light btn-floating m-1"
+                     class="text-white"
+                     role="button"
+                     ><i class="fa fa-instagram"></i
+                    ></a>
+                </div>
+                <!-- Grid column -->
+              </div>
+            </section>
+            <!-- Section: Copyright -->
+          </div>
+          <!-- Grid container -->
+        </footer>
+        <!-- Footer -->
+      </div>
+      <!-- End of .container -->
    
      
       
